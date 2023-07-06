@@ -17,3 +17,15 @@ export const VITE_API_URL = `${apiURLWithPORT}Kapture-Search/`;
 export const VITE_UserManagement_API_URL = `${apiURLWithPORT}Kapture-UserManagement/`;
 export const VITE_CMS_URL = `${apiURLWithPORT}Kapture-CMS/`;
 
+var ksearchEnvData =
+{
+    'VITE_BASE_URL': frontend_url,
+    'BASE_URL': frontend_url,
+    'VITE_SPRINT_VERSION': 8,
+    'VITE_SPRINT_ENV': VITE_SPRINT_ENV,
+    'VITE_SPRINT_DATE': VITE_SPRINT_DATE,
+    'VITE_API_DOMAIN': VITE_API_DOMAIN,
+    'VITE_API_URL': VITE_API_URL,
+    'VITE_UserManagement_API_URL': VITE_UserManagement_API_URL,
+    'VITE_CMS_URL': VITE_CMS_URL,
+};
